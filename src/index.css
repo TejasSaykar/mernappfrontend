@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    box-shadow: 0 8px 6px -6px grey;
+}
+
+.nav-link {
+    font-weight: 500 !important;
+    color: rgb(235, 26, 61);
+}
+
+.active {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    background-color: rgb(235, 26, 61);
+}
+
+.footer a {
+    margin: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.pnf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pnf-title{
+    padding-top: 7rem;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.pnf-heading{
+    font-weight: 400;
+}
+
+.pnf-btn {
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.pnf-btn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.mode{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* DashBoard Menu */
+
+@media screen and (min-width : 765px) {
+    .dashboard{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 765px) {
+    .dashboard1{
+        display: none;
+    }
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* checkout */
+
+@media screen and (max-width: 775px) {
+    .cartImg{
+        width: 150px !important;
+        height: 250px !important;
+    }
+}
+
+/* Fiters */
+@media screen and (max-width : 767px) {
+    .filters{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+    .filter1{
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Cart */
+
+.cardImg{
+    box-shadow: 5px 5px 10px black;
+}

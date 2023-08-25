@@ -1,0 +1,30 @@
+/* Register page */
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 70vh;
+    flex-direction: column;
+    /* box-shadow: 5px 5px 10px black; */
+    background-color: rgb(245, 240, 240);
+    height: 100vh;
+}
+
+.form{
+    width: 300px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+    margin-top: 2rem;
+   
+}
+
+.form input{
+    border: none;
+    font-weight: 500;
+}
+
+.form .formdata{
+    border-bottom: 1px solid black;
+}
